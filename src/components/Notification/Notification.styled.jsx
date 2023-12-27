@@ -1,4 +1,6 @@
-.title {
+import styled from 'styled-components';
+
+export const P = styled.p`
   background-color: rgb(2, 48, 85);
   border: 1px solid #000;
   padding: 20px 60px;
@@ -10,4 +12,4 @@
   text-align: center;
   box-shadow: 0.5rem 0.5rem 2rem rgb(167, 164, 164),
     -0.5rem -0.5rem 2rem rgb(172, 171, 171);
-}
+`;
